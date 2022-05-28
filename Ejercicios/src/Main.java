@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        numeroMayor();
+
+    }
+
+    private static void numeroMayor() {
         /* Encabezado*/
 
         System.out.println("Sentecias condicionales \n");
