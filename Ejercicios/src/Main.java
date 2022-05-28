@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        importeCompra();
+
+    }
+
+    private static void importeCompra() {
         //Variables
 
         boolean flag = true;
@@ -84,6 +89,5 @@ public class Main {
                 }
             }
         }while(flag!=false);
-
     }
 }
