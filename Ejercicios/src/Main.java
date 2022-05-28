@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        notasColegio();
+    }
+
+    private static void notasColegio() {
         //Variables
 
         Scanner scanner = new Scanner(System.in);
