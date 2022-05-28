@@ -3,6 +3,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        triangulos();
+
+
+    }
+
+    private static void triangulos() {
         /* Encabezado*/
 
         System.out.println("Sentecias condicionales \n");
@@ -91,9 +97,5 @@ public class Main {
             System.out.println(asterisco);
 
         }
-
-
-
-
     }
 }
