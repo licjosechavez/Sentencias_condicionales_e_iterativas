@@ -13,7 +13,22 @@ public class Main {
         //Variables
 
         boolean flag = true;
+        
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el primer número: ");
+        int numero1 = scanner.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        int numero2 = scanner.nextInt();
+
+        /*Evaluar numero mayor*/
+
+        if(numero1 == numero2){
+            System.out.println("Los números son iguales");
+        }else if(numero1 > numero2){
+            System.out.println("El número mayor es: " + numero1);
+        }else {
+            System.out.println("El número mayor es: " + numero2);
+        }
 
 
 
@@ -284,21 +299,7 @@ public class Main {
             }
         }while(flag!=false);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingrese el primer número: ");
-        int numero1 = scanner.nextInt();
-        System.out.println("Ingrese el segundo número: ");
-        int numero2 = scanner.nextInt();
-
-        /*Evaluar numero mayor*/
-
-        if(numero1 == numero2){
-            System.out.println("Los números son iguales");
-        }else if(numero1 > numero2){
-            System.out.println("El número mayor es: " + numero1);
-        }else {
-            System.out.println("El número mayor es: " + numero2);
-        }
+        
 
 
     }
