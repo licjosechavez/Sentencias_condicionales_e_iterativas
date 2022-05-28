@@ -55,7 +55,7 @@ public class Main {
                 + " Promedio: " + promedioNotas  + "\n"
                 + " Estado: " + estado  + "\n"
         );
-=======
+
         numeroMayor();
 
     }
